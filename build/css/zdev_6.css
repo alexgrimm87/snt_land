@@ -1,0 +1,192 @@
+.block-3 {
+  height: 1018px; }
+  .block-3 .main-wrap {
+    position: relative;
+    height: 100%; }
+    .block-3 .main-wrap > .all-projects {
+      display: none;
+      width: 258px;
+      height: 69px;
+      border: 2px solid white;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+      color: white;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      line-height: 68px;
+      margin: 0 0 0 auto;
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      -moz-transition: 0.2s;
+      transition: 0.2s;
+      position: absolute;
+      bottom: 150px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+      .block-3 .main-wrap > .all-projects:hover {
+        border: 2px solid #ef501b;
+        color: #ef501b; }
+    .block-3 .main-wrap .big-slider {
+      height: 100%; }
+      .block-3 .main-wrap .big-slider .slick-list {
+        height: 100%; }
+        .block-3 .main-wrap .big-slider .slick-list .slick-track {
+          height: 100%; }
+          .block-3 .main-wrap .big-slider .slick-list .slick-track .slide {
+            height: 100%;
+            overflow: hidden;
+            position: relative; }
+            .block-3 .main-wrap .big-slider .slick-list .slick-track .slide img {
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              min-width: 1504px;
+              width: 100%; }
+      .block-3 .main-wrap .big-slider.slick-slider {
+        margin: 0; }
+      .block-3 .main-wrap .big-slider .slick-arrow {
+        background: rgba(224, 224, 224, 0.7); }
+      .block-3 .main-wrap .big-slider .slick-prev {
+        left: 20px;
+        background: rgba(224, 224, 224, 0.7);
+        width: 94px;
+        min-height: 94px;
+        z-index: 1; }
+        .block-3 .main-wrap .big-slider .slick-prev:before {
+          content: "";
+          width: 0;
+          height: 0;
+          border-right: 20px solid #000;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+      .block-3 .main-wrap .big-slider .slick-next {
+        left: 120px;
+        background: rgba(224, 224, 224, 0.7);
+        width: 94px;
+        min-height: 94px; }
+        .block-3 .main-wrap .big-slider .slick-next:before {
+          content: "";
+          width: 0;
+          height: 0;
+          border-left: 20px solid #000;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+    .block-3 .main-wrap .side-bar {
+      position: absolute;
+      top: 0;
+      right: 3.65%;
+      height: 100%;
+      padding-top: 205px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+      -moz-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      width: 43%;
+      background-color: rgba(0, 0, 0, 0.7); }
+      .block-3 .main-wrap .side-bar .content {
+        max-width: 580px;
+        color: #fff;
+        font-family: Roboto;
+        font-weight: 500;
+        color: white;
+        font-size: 20px;
+        text-align: right;
+        z-index: 1;
+        line-height: 1.2; }
+        .block-3 .main-wrap .side-bar .content h2 {
+          color: white;
+          font-family: Roboto;
+          font-size: 55px;
+          font-weight: 900;
+          text-transform: uppercase;
+          margin: 0;
+          line-height: 1.2; }
+        .block-3 .main-wrap .side-bar .content .heading {
+          margin-bottom: 50px; }
+        .block-3 .main-wrap .side-bar .content ul {
+          padding: 0 15px 15px 0;
+          margin: 0;
+          list-style: none; }
+          .block-3 .main-wrap .side-bar .content ul li {
+            position: relative;
+            margin-bottom: 30px; }
+            .block-3 .main-wrap .side-bar .content ul li a {
+              color: #ef501b;
+              font-size: 25px;
+              margin: 0;
+              padding: 0;
+              text-decoration: none; }
+            .block-3 .main-wrap .side-bar .content ul li:after {
+              content: "";
+              display: block;
+              position: absolute;
+              width: 8px;
+              height: 3px;
+              background-color: #fff;
+              right: -13px;
+              top: 13px; }
+        .block-3 .main-wrap .side-bar .content .all-projects {
+          display: block;
+          width: 258px;
+          height: 69px;
+          border: 2px solid white;
+          -webkit-border-radius: 6px;
+          -moz-border-radius: 6px;
+          border-radius: 6px;
+          color: white;
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-decoration: none;
+          text-align: center;
+          line-height: 68px;
+          margin: 0 0 0 auto;
+          -webkit-transition: 0.2s;
+          -o-transition: 0.2s;
+          -moz-transition: 0.2s;
+          transition: 0.2s; }
+          .block-3 .main-wrap .side-bar .content .all-projects:hover {
+            border: 2px solid #ef501b;
+            color: #ef501b; }
+    .block-3 .main-wrap:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 3.65%;
+      background: #ef501b; }

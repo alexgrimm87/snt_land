@@ -1,0 +1,189 @@
+.block-3 {
+  height: 1018px;
+  .main-wrap {
+    position: relative;
+    height: 100%;
+    &>.all-projects {
+      display: none;
+      width: 258px;
+      height: 69px;
+      border: 2px solid white;
+      border-radius: 6px;
+      color: white;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      line-height: 68px;
+      margin: 0 0 0 auto;
+      transition: 0.2s;
+      position: absolute;
+      bottom: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+      &:hover {
+        border: 2px solid #ef501b;
+        color: #ef501b;
+      }
+    }
+
+    .big-slider {
+      height: 100%;
+      .slick-list {
+        height: 100%;
+        .slick-track {
+          height: 100%;
+          .slide {
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            img {
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              min-width: 1504px;
+              width: 100%;
+            }
+          }
+        }
+      }
+      &.slick-slider {
+        margin: 0;
+      }
+      .slick-arrow {
+        background: rgba(224, 224, 224, 0.7);
+      }
+      .slick-prev {
+        left: 20px;
+        background: rgba(224, 224, 224, 0.7);
+        width: 94px;
+        min-height: 94px;
+        z-index: 1;
+        &:before {
+          content: "";
+          width: 0;
+          height: 0;
+          border-right: 20px solid #000;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+      .slick-next {
+        left: 120px;
+        background: rgba(224, 224, 224, 0.7);
+        width: 94px;
+        min-height: 94px;
+        &:before {
+          content: "";
+          width: 0;
+          height: 0;
+          border-left: 20px solid #000;
+          border-top: 10px solid transparent;
+          border-bottom: 10px solid transparent;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+    .side-bar {
+      position: absolute;
+      top: 0;
+      right: 3.65%;
+      height: 100%;
+      padding-top: 205px;
+      display: flex;
+      justify-content: flex-start;
+      width: 43%;
+      background-color: rgba(0, 0, 0, 0.7);
+      .content {
+        max-width: 580px;
+        color: #fff;
+        font-family: Roboto;
+        font-weight: 500;
+        color: white;
+        font-size: 20px;
+        text-align: right;
+        z-index: 1;
+        line-height: 1.2;
+        h2 {
+          color: white;
+          font-family: Roboto;
+          font-size: 55px;
+          font-weight: 900;
+          text-transform: uppercase;
+          margin: 0;
+          line-height: 1.2;
+        }
+        .heading {
+          margin-bottom: 50px;
+        }
+        ul {
+          padding: 0 15px 15px 0;
+          margin: 0;
+          list-style: none;
+          li {
+            position: relative;
+            margin-bottom: 30px;
+            a {
+              color: #ef501b;
+              font-size: 25px;
+              margin: 0;
+              padding: 0;
+              text-decoration: none;
+            }
+            &:after {
+              content: "";
+              display: block;
+              position: absolute;
+              width: 8px;
+              height: 3px;
+              background-color: #fff;
+              right: -13px;
+              top: 13px;
+            }
+          }
+        }
+        .all-projects {
+          display: block;
+          width: 258px;
+          height: 69px;
+          border: 2px solid white;
+          border-radius: 6px;
+          color: white;
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-decoration: none;
+          text-align: center;
+          line-height: 68px;
+          margin: 0 0 0 auto;
+          transition: 0.2s;
+          &:hover {
+            border: 2px solid #ef501b;
+            color: #ef501b;
+          }
+        }
+      }
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 3.65%;
+      background: #ef501b;
+    }
+  }
+}
